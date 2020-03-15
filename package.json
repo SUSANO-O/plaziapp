@@ -1,0 +1,14 @@
+{
+  "name": "docker-testing",
+  "version": "0.0.1",
+  "description": "Simple node.js app for container linking testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "nodemon": "1.18.6"
+  }
+}
