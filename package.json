@@ -8,6 +8,7 @@
     "test": "mocha"
   },
   "devDependencies": {
+    "express": "^4.17.1",
     "mocha": "5.2.0",
     "nodemon": "1.18.6"
   }
