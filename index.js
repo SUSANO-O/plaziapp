@@ -12,10 +12,10 @@ app.get('/', (req, res) => {
     if (err) {
       res.status(500).send('💥 BOOM  error 💥: ' + err);
     } else {
-      res.send('Me conecté a la DB! 😎 genial');
+      res.send('Me conecté a la DB! 😎 probando docker');
       db.close();
     }
   });
 });
 
-app.listen(port, () => console.log(`servidor listening on port ${port}!`))
+app.listen(port, () => console.log(`servidor  on port ${port}!`))
