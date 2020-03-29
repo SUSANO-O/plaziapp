@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended: false}))
 
 //routers
 app.get('/', (req, res) => {
-    res.send('hello word')
+    res.send('hello mundo')
 })
 //static file g
 
