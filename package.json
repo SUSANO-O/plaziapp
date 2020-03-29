@@ -5,17 +5,26 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "dev": "node index.js",
-    "test": "mocha"
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.8.9",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
-    "express": "^4.17.1",
-    "mocha": "5.2.0",
-    "nodemon": "^1.18.6"
-  },
-  "dependencies": {
     "dotenv": "^8.2.0",
-    "mongodb": "^3.5.5",
-    "mongoose": "^5.9.6"
+    "handlebars": "^4.5.0",
+    "nodemon": "^2.0.2",
+    "npm-check-updates": "^4.0.1"
   }
 }
